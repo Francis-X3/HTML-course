@@ -13,7 +13,7 @@
       text-align: center;
       color: aqua;
       width: 400px;
-      height: 350px;
+      height: 450px;
     }
 
     .listItems{
@@ -27,13 +27,13 @@
   <div class="form">
     <h1>Registration form</h1>
 
-    <form action="">
+    <form action="POST">
 
       <ul class="listItems">
-        <li>First Name</li>
-        <input type="text">
+       
+        <input type="text" placeholder="First Name">
         <li>last Name</li>
-        <input type="text">
+        <input type="text" placeholder="Last Name">
         <li>Password</li>
         <input type="password">
 
@@ -47,6 +47,8 @@
         <label for="Female">Female</label>
         <input type="radio">
         <label for="Other">Other</label>
+        <input type="file" style="display: block;">
+        <textarea name="Any Comments" id="" cols="10" rows="5"></textarea>
 
         <button type="submit">submit</button>
 
